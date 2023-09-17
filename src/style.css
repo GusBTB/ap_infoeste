@@ -188,6 +188,7 @@ span {
 .card {
     background-color: white;
     height: 314px;
+    text-decoration: none;
     width: 24%;
     border-radius: 15px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
@@ -196,6 +197,18 @@ span {
     justify-content: center;
     cursor: pointer;
     transition: all ease .5s;
+}
+
+.card:link {
+    text-decoration: none;
+}
+
+.card:visited {
+    text-decoration: none;
+}
+
+.card:active {
+    text-decoration: none;
 }
 
 .card:hover {
@@ -238,11 +251,13 @@ span {
     font-family: "Inter";
     font-size: 16px;
     font-weight: 500;
+    color: black;
     margin-bottom: 10px;
 }
 
 .card_subtitle {
     font-family: "Inter";
+    color: black;
     text-align: justify;
 }
 
