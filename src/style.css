@@ -46,6 +46,7 @@ body {
     font-family: "Monoton";
     font-size: 40px;
 }
+
 #header_fipp {
     font-family: "Inter";
     font-weight: 700;
@@ -83,18 +84,21 @@ body {
     color: black;
     text-decoration: none;
 }
+
 .nav_item:link {
     text-decoration: none;
 }
-.nav_item:visited { 
-    text-decoration: none; 
+
+.nav_item:visited {
+    text-decoration: none;
 }
 
-.nav_item:hover{
+.nav_item:hover {
     color: #5dbd4e;
 }
-.nav_item:active { 
-    text-decoration: none; 
+
+.nav_item:active {
+    text-decoration: none;
 }
 
 .divider {
@@ -133,6 +137,7 @@ body {
     font-weight: 700;
     font-size: 25px;
 }
+
 .write_div {
     margin-top: 20px;
     width: 100%;
@@ -142,11 +147,13 @@ body {
     justify-content: space-between;
     gap: 20px;
 }
+
 .write_div p {
     text-align: justify;
 }
 
-.write_div p, span {
+.write_div p,
+span {
     font-family: "Inter";
 }
 
@@ -169,12 +176,12 @@ body {
     margin-bottom: 20px;
 }
 
- #cards_container_centered {
+#cards_container_centered {
     margin-top: 20px;
-    width: 90%; 
-    display: flex; 
-    align-items: center; 
-    justify-content: space-between; 
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     margin-bottom: 20px;
 }
 
@@ -183,11 +190,16 @@ body {
     height: 314px;
     width: 24%;
     border-radius: 15px;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; 
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     display: flex;
     align-items: center;
     justify-content: center;
     cursor: pointer;
+    transition: all ease .5s;
+}
+
+.card:hover {
+    transform: scale3d(1.1, 1.1, 1.1);
 }
 
 .card_centered {
@@ -248,24 +260,239 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 30px;
-    margin-bottom: 30px;
+    gap: 40px;
+    margin-top: 60px;
+    margin-bottom: 60px;
 }
 
-#realize p {
+#realize p,
+#support p,
+#partners p {
     font-family: "Inter";
     font-weight: 700;
     font-size: 25px;
 }
 
-#realize div {
+#realize div,
+#support div {
     display: flex;
-    gap: 30px;
+    gap: 100px;
+    align-items: center;
 }
 
-#realize img {
-    height: 50px;
+.realize_fipp_img {
+    height: 80px;
+    cursor: pointer;
+    transition: all ease .5s;
 }
+
+.realize_unoeste_img {
+    height: 50px;
+    cursor: pointer;
+    transition: all ease .5s;
+}
+
+.realize_fipp_img:hover,
+.realize_unoeste_img:hover,
+.sbc_img:hover,
+.poloin_img:hover,
+.intepp_img:hover,
+.wilson_img:hover,
+.egestora_img:hover,
+.analytics_img:hover,
+.vericode_img:hover,
+.cobmais_img:hover,
+.estrategias_img:hover,
+.magalu_img:hover,
+.havan_img:hover,
+.itau_img:hover,
+.nedhu_img:hover,
+.b3_img:hover,
+.rubcube_img:hover,
+.espacouni_img:hover {
+    transform: scale3d(1.1, 1.1, 1.1);
+
+}
+
+#support {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding: 90px 0px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    background-color: #f3f3f3;
+}
+
+.sbc_img {
+    width: 200px;
+    cursor: pointer;
+    transition: all ease .5s;
+}
+
+.poloin_img {
+    width: 200px;
+    cursor: pointer;
+    transition: all ease .5s;
+}
+
+.intepp_img {
+    height: 50px;
+    cursor: pointer;
+    transition: all ease .5s;
+}
+
+#partners {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.partners_main {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    gap: 55px;
+}
+
+.partners_upper,
+.partners_middle {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.partners_bottom {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+
+.wilson_img {
+    width: 150px;
+    cursor: pointer;
+    transition: all ease .5s;
+}
+
+.egestora_img {
+    height: 50px;
+    cursor: pointer;
+    transition: all ease .5s;
+}
+
+.analytics_img {
+    height: 50px;
+    cursor: pointer;
+    transition: all ease .5s;
+}
+
+.vericode_img {
+    width: 150px;
+    cursor: pointer;
+    transition: all ease .5s;
+}
+
+.cobmais_img {
+    height: 50px;
+    cursor: pointer;
+    transition: all ease .5s;
+}
+
+.estrategias_img {
+    height: 50px;
+    cursor: pointer;
+    transition: all ease .5s;
+}
+
+.magalu_img {
+    width: 150px;
+    cursor: pointer;
+    transition: all ease .5s;
+}
+
+.havan_img {
+    width: 120px;
+    cursor: pointer;
+    transition: all ease .5s;
+}
+
+.itau_img {
+    height: 90px;
+    cursor: pointer;
+    transition: all ease .5s;
+}
+
+.nedhu_img {
+    height: 90px;
+    cursor: pointer;
+    transition: all ease .5s;
+}
+
+.b3_img {
+    height: 80px;
+    cursor: pointer;
+    transition: all ease .5s;
+}
+
+.rubcube_img {
+    width: 150px;
+    cursor: pointer;
+    transition: all ease .5s;
+}
+
+.espacouni_img {
+    height: 90px;
+    cursor: pointer;
+    transition: all ease .5s;
+}
+
+#contact {
+    width: 100%;
+    background-color: #5dbd4e;
+    padding: 80px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#contact_title {
+    color: white;
+    font-family: "Inter";
+    font-weight: 700;
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+
+#contact p {
+    font-family: "Inter";
+    color: white;
+    margin-bottom: 15px;
+}
+
+#contact a {
+    color: white;
+}
+
+#contact a:visited {
+    text-decoration: none;
+}
+
+#contact a:active {
+    text-decoration: none;
+}
+
+
 
 @media (min-width: 1400px) {
     #cards_container {
