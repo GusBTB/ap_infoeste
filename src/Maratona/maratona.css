@@ -97,16 +97,15 @@ body {
 }
 
 .princ{
-    width: 90%;
     text-align: center;
-    align-items: center;
     font-family: "Inter";
     font-size: 30px;
+    margin-top: 10px;
 }
 .vericode {
-    margin-top: 60px;
+    margin-top: 0px;
     width: 100%;
-    padding: 70px 0px;
+    padding: 20px 0px;
     display: flex;
     flex-direction: column;
     /* background-color: #f3f3f3; */
@@ -114,20 +113,25 @@ body {
     align-items: center;
 }
 
-
-/*passei por aqui Matheus Andreass
-    Sem o overflow-x: hidden; tava criando o scroll desnecessauro
-*/
-
 .text{
-    align-items: center;
     display: flex;
+    /* border: 3px solid blue; */
+    height: 100px;
+    flex-direction: column;
+    height: auto;
+    text-indent:initial ;
+    border-collapse: separate;
+    white-space-collapse: collapse
 }
 
+.text h3 {
+    font-size:25px;
+    text-align:center;
+    /* border: 3px solid red; */
+}
 .text p {
-    flex-direction: column;
-    margin: 50px;
-    scroll-behavior: smooth;
-    font-size:30px;
+    margin: 0px 5% 0px 5%;
     text-align: justify;
+    font-size: 20px;
+    
 }
