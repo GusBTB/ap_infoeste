@@ -1,0 +1,205 @@
+p {
+    font-family: "Inter";
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+}
+
+
+/* width */
+::-webkit-scrollbar {
+    width: 7px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #FF55CD; 
+    border-radius: 10px;
+  }
+
+#header {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid #FF55CD;
+}
+
+.header_centered {
+    width: 90%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header_centered p {
+    font-weight: 600;
+}
+
+#main {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main_skills {
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+}
+
+.main_skills_title {
+    display: flex;
+    margin-top: 15px;
+    align-items: center;
+    justify-content: center;
+}
+
+.main_skills_title p {
+    font-size: 15px;
+}
+
+.main_content {
+    width: 80%;
+    height: 90%;
+}
+#main_content_info {
+    height: 100%;
+}
+
+.star_rating {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    align-items: flex-end;
+}
+.star_rating_stars {
+    margin-top: 10px;
+    display: flex;
+}
+
+.checked {
+    color: #FF55CD;
+}
+
+.notchecked {
+    color: #8B8B8B;
+}
+
+.main_content_filter{
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.main_content_filter_options a {
+    text-decoration: none;
+    font-family: "Inter";
+    cursor: pointer;
+    color: #363636;
+    border: 1px solid #8B8B8B;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+.main_content_filter_options {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+#main_content_info {
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+#main_content_info_about p {
+    margin-bottom: 15px;
+}
+
+.main_content_info_about_title{
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+.main_content_info_academic_title{
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+#main_content_info_about ul {
+    margin-bottom: 15px;
+}
+
+#main_content_info_about ul li {
+    font-family: "Inter";
+    line-height: 20px;
+}
+
+#main_content_info_about div a {
+    font-family: "Inter";
+    cursor: pointer;
+    color: #363636;
+    border: 1px solid #8B8B8B;
+    padding: 5px 10px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.main_content_info_prof_title {
+    margin: 20px 0px;
+    font-size: 20px;
+}
+
+#main_content_info_prof div p {
+    line-height: 20px;
+}
+
+.line_height{
+    line-height: 25px;
+}
+
+.title {
+    font-size: 18px;
+}
+
+.bold {
+    font-weight: 600;
+}
+.smaller_line_height {
+    line-height: 20px;
+}
+
+.margin_top {
+    margin-top: 15px;
+}
+
+.link {
+    font-family: "Inter";
+    cursor: pointer;
+    color: #363636;
+    border: 1px solid #8B8B8B;
+    padding: 5px 10px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+#main_content_info_projects div {
+    margin-top: 15px;
+}
