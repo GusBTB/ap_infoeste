@@ -90,3 +90,129 @@ body {
     background-color: #5dbd4e;
 }
 
+#content {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+   flex-direction: column;
+}
+#geral {
+    width: 90%;
+}
+#geral h3 {
+    font-size: 25px;
+    margin-top: 10px; 
+    color: rgb(93, 150, 110); 
+}
+#geral p {
+    font-size: 20px;
+    margin-top: 10px;
+    color: rgb(93, 150, 110); 
+}
+* {
+    font-family: "Inter";
+    text-align: center;
+    font-size: 30px;
+}
+#cards_container {
+    width: 100%;
+    margin-top: 15px;
+    background-color: #5dbd4e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+#cards_container_centered {
+    margin-top: 20px;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.card {
+    background-color: white;
+    height: 700px;
+    text-decoration: none;
+    width: 24%;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all ease .5s;
+}
+.card:link {
+    text-decoration: none;
+}
+
+.card:visited {
+    text-decoration: none;
+}
+
+.card:active {
+    text-decoration: none;
+}
+
+.card:hover {
+    transform: scale3d(1.1, 1.1, 1.1);
+}
+
+.card_centered {
+    margin: 20px 0px;
+    width: 90%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card_images {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.card_upper {
+    width: 100%;
+    justify-content: space-evenly;
+    display: flex;
+    align-items: center;
+}
+
+.card_upper_img {
+    /* width: 45%; */
+    max-width: 200px;
+}
+
+.google_img {
+    height: 100px;
+}
+
+.card_title {
+    font-family: "Inter";
+    font-size: 16px;
+    font-weight: 500;
+    color: black;
+    margin-bottom: 10px;
+}
+
+.card_subtitle {
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+    text-align:start;
+    font-size: 17px;
+}
+
+.img_vericode {
+    height: 100px;
+}
+
+.b3_img {
+    width: 55%;
+}
