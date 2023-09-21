@@ -2,10 +2,12 @@ body {
     width: 100vw;
     /* height: 100vh; */
 }
-*{
+
+* {
     font-family: "Inter";
     overflow-x: hidden;
 }
+
 #header_container {
     width: 100%;
     height: 110px;
@@ -36,6 +38,7 @@ body {
     font-family: "Monoton";
     font-size: 40px;
 }
+
 #header_fipp {
     font-family: "Inter";
     font-weight: 700;
@@ -64,12 +67,14 @@ body {
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
 }
-#content{
+
+#content {
     width: 100%;
-    display: flex;    
+    display: flex;
     justify-content: center;
-    height:100% ;
+    height: 100%;
 }
+
 .nav_item {
     font-family: "Inter";
     font-size: 15px;
@@ -78,18 +83,21 @@ body {
     color: black;
     text-decoration: none;
 }
+
 .nav_item:link {
     text-decoration: none;
 }
-.nav_item:visited { 
-    text-decoration: none; 
+
+.nav_item:visited {
+    text-decoration: none;
 }
 
-.nav_item:hover{
+.nav_item:hover {
     color: #5dbd4e;
 }
-.nav_item:active { 
-    text-decoration: none; 
+
+.nav_item:active {
+    text-decoration: none;
 }
 
 .divider {
@@ -97,55 +105,66 @@ body {
     height: 85%;
     background-color: #5dbd4e;
 }
-#principal{
+
+#principal {
     width: 90%;
     display: flex;
-    
+
 }
-h1{
+
+h1 {
     padding-top: 25px;
     text-align: center;
 }
-h2{
+
+h2 {
     text-align: center;
 }
-.salario{
+
+.salario {
     color: #5dbd4e;
     text-align: left;
 }
-.textos{
+
+.textos {
     text-align: justify;
 }
-.conteudo{
+
+.conteudo {
     width: 48%;
     align-items: center;
-    overflow-y:auto;
+    overflow-y: auto;
     height: 700px;
     padding-right: 5px;
     padding-bottom: 10px;
 }
-h5{
+
+h5 {
     font-size: 18px;
     padding-top: 5px;
 }
-h5:hover{
+
+h5:hover {
     color: #5dbd4e;
 }
 
-.fotos1{
+.fotos1 {
     width: 25%;
     ;
 }
-.foto{
+
+.foto {
     padding-top: 20px;
     width: 90%;
     border-radius: 40px;
 }
-.fotos2{
+
+.fotos2 {
     width: 25%;
     padding-left: 25px;
-     ;
+    ;
 }
+
 .conteudo::-webkit-scrollbar {
     width: 8px;
 
@@ -159,4 +178,62 @@ h5:hover{
     background-color: #5dbd4e;
     border-radius: 20px;
     border: 6px solid #5dbd4e;
+}
+
+.circle {
+    position: fixed;
+    top: 20%;
+    left: 3px;
+    width: 50px;
+    text-decoration: none;
+    height: 50px;
+    background-color: #5dbd4e;
+    border-radius: 100%;
+    gap: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.circle:link {
+    text-decoration: none;
+}
+
+.circle:visited {
+    text-decoration: none;
+}
+
+.circle:active {
+    text-decoration: none;
+}
+
+.circle:hover {
+    width: 150px;
+    border-radius: 50px;
+}
+
+.circle:hover p {
+    display: inline;
+    color: white;
+}
+
+.circle p {
+    display: none;
+    margin: 0;
+    font-family: "Inter";
+    font-size: 20px;
+    color: #5dbd4e;
+    /* color: white; */
+    padding: 0;
+}
+
+#footer {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    background-color: #43a436;
+    justify-content: center;
+    align-items: center;
 }

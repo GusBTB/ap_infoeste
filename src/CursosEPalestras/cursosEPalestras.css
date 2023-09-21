@@ -1,6 +1,7 @@
 body {
     width: 100vw;
     /* height: 100vh; */
+    overflow-x: hidden;
 }
 
 #header_container {
@@ -33,6 +34,7 @@ body {
     font-family: "Monoton";
     font-size: 40px;
 }
+
 #header_fipp {
     font-family: "Inter";
     font-weight: 700;
@@ -70,18 +72,21 @@ body {
     color: black;
     text-decoration: none;
 }
+
 .nav_item:link {
     text-decoration: none;
 }
-.nav_item:visited { 
-    text-decoration: none; 
+
+.nav_item:visited {
+    text-decoration: none;
 }
 
-.nav_item:hover{
+.nav_item:hover {
     color: #5dbd4e;
 }
-.nav_item:active { 
-    text-decoration: none; 
+
+.nav_item:active {
+    text-decoration: none;
 }
 
 .divider {
@@ -94,26 +99,31 @@ body {
     width: 100%;
     display: flex;
     justify-content: center;
-   flex-direction: column;
+    flex-direction: column;
 }
+
 #geral {
     width: 90%;
 }
+
 #geral h3 {
     font-size: 25px;
-    margin-top: 10px; 
-    color: rgb(93, 150, 110); 
+    margin-top: 10px;
+    color: rgb(93, 150, 110);
 }
+
 #geral p {
     font-size: 20px;
     margin-top: 10px;
-    color: rgb(93, 150, 110); 
+    color: rgb(93, 150, 110);
 }
+
 * {
     font-family: "Inter";
     text-align: center;
     font-size: 30px;
 }
+
 #cards_container {
     width: 100%;
     margin-top: 15px;
@@ -146,6 +156,7 @@ body {
     cursor: pointer;
     transition: all ease .5s;
 }
+
 .card:link {
     text-decoration: none;
 }
@@ -205,7 +216,7 @@ body {
 .card_subtitle {
     font-family: 'Courier New', Courier, monospace;
     color: black;
-    text-align:start;
+    text-align: start;
     font-size: 17px;
 }
 
@@ -216,6 +227,65 @@ body {
 .b3_img {
     width: 55%;
 }
+
 b {
     font-size: 18px;
+}
+
+.circle {
+    position: fixed;
+    top: 20%;
+    left: 3px;
+    width: 50px;
+    text-decoration: none;
+    height: 50px;
+    background-color: #5dbd4e;
+    border-radius: 100%;
+    gap: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.circle:link {
+    text-decoration: none;
+}
+
+.circle:visited {
+    text-decoration: none;
+}
+
+.circle:active {
+    text-decoration: none;
+}
+
+.circle:hover {
+    width: 150px;
+    border-radius: 50px;
+}
+
+.circle:hover p {
+    display: inline;
+    color: white;
+}
+
+.circle p {
+    display: none;
+    margin: 0;
+    font-family: "Inter";
+    font-size: 20px;
+    color: #5dbd4e;
+    /* color: white; */
+    padding: 0;
+}
+
+#footer {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    background-color: #43a436;
+    justify-content: center;
+    align-items: center;
 }
