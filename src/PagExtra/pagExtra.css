@@ -2,7 +2,10 @@ body {
     width: 100vw;
     /* height: 100vh; */
 }
-
+*{
+    font-family: "Inter";
+    overflow-x: hidden;
+}
 #header_container {
     width: 100%;
     height: 110px;
@@ -61,7 +64,12 @@ body {
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
 }
-
+#content{
+    width: 100%;
+    display: flex;    
+    justify-content: center;
+    height:100% ;
+}
 .nav_item {
     font-family: "Inter";
     font-size: 15px;
@@ -89,4 +97,66 @@ body {
     height: 85%;
     background-color: #5dbd4e;
 }
+#principal{
+    width: 90%;
+    display: flex;
+    
+}
+h1{
+    padding-top: 25px;
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+.salario{
+    color: #5dbd4e;
+    text-align: left;
+}
+.textos{
+    text-align: justify;
+}
+.conteudo{
+    width: 48%;
+    align-items: center;
+    overflow-y:auto;
+    height: 700px;
+    padding-right: 5px;
+    padding-bottom: 10px;
+}
+h5{
+    font-size: 18px;
+    padding-top: 5px;
+}
+h5:hover{
+    color: #5dbd4e;
+}
 
+.fotos1{
+    width: 25%;
+    ;
+}
+.foto{
+    padding-top: 20px;
+    width: 90%;
+    border-radius: 40px;
+}
+.fotos2{
+    width: 25%;
+    padding-left: 25px;
+     ;
+}
+.conteudo::-webkit-scrollbar {
+    width: 8px;
+
+}
+
+.conteudo::-webkit-scrollbar-track {
+    background: white
+}
+
+.conteudo::-webkit-scrollbar-thumb {
+    background-color: #5dbd4e;
+    border-radius: 20px;
+    border: 6px solid #5dbd4e;
+}
