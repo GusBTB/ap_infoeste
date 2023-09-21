@@ -34,6 +34,7 @@ body {
     font-family: "Monoton";
     font-size: 40px;
 }
+
 #header_fipp {
     font-family: "Inter";
     font-weight: 700;
@@ -62,6 +63,7 @@ body {
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
 }
+
 #content {
     width: 100%;
     display: flex;
@@ -76,18 +78,21 @@ body {
     color: black;
     text-decoration: none;
 }
+
 .nav_item:link {
     text-decoration: none;
 }
-.nav_item:visited { 
-    text-decoration: none; 
+
+.nav_item:visited {
+    text-decoration: none;
 }
 
-.nav_item:hover{
+.nav_item:hover {
     color: #5dbd4e;
 }
-.nav_item:active { 
-    text-decoration: none; 
+
+.nav_item:active {
+    text-decoration: none;
 }
 
 .divider {
@@ -96,12 +101,13 @@ body {
     background-color: #5dbd4e;
 }
 
-.princ{
+.princ {
     text-align: center;
     font-family: "Inter";
     font-size: 30px;
     margin-top: 10px;
 }
+
 .vericode {
     margin-top: 0px;
     width: 100%;
@@ -113,25 +119,75 @@ body {
     align-items: center;
 }
 
-.text{
+.text {
     display: flex;
     /* border: 3px solid blue; */
     height: 100px;
     flex-direction: column;
     height: auto;
-    text-indent:initial ;
+    text-indent: initial;
     border-collapse: separate;
     white-space-collapse: collapse
 }
 
 .text h3 {
-    font-size:25px;
-    text-align:center;
+    font-size: 25px;
+    text-align: center;
     /* border: 3px solid red; */
 }
+
 .text p {
     margin: 0px 5% 0px 5%;
     text-align: justify;
     font-size: 20px;
-    
+
+}
+
+.circle {
+    position: fixed;
+    top: 20%;
+    left: 3px;
+    width: 50px;
+    text-decoration: none;
+    height: 50px;
+    background-color: #5dbd4e;
+    border-radius: 100%;
+    gap: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.circle:link {
+    text-decoration: none;
+}
+
+.circle:visited {
+    text-decoration: none;
+}
+
+.circle:active {
+    text-decoration: none;
+}
+
+.circle:hover {
+    width: 150px;
+    border-radius: 50px;
+}
+
+.circle:hover p {
+    display: inline;
+    color: white;
+}
+
+.circle p {
+    display: none;
+    margin: 0;
+    font-family: "Inter";
+    font-size: 20px;
+    color: #5dbd4e;
+    /* color: white; */
+    padding: 0;
 }
